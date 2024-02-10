@@ -1,0 +1,311 @@
+@import './var.scss';
+
+
+.container {
+    display: flex;
+    .container__right {
+        padding-top: 50px;
+        width: 100%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: $background-light;
+    }
+    .container__left {
+        display: none;
+    }
+}
+  
+.neader {
+    @include size(90%, 60px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header__btn-menu{
+        display: none;
+    }
+    .header__logo {
+        padding: 12px 7px;
+        font-size: 24px;
+        border: 2px solid $color-peach;
+        border-radius: 15px;
+        color: $color-white;
+        background: #e4292916;
+        cursor: pointer;
+    }
+    .search-info {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        width: 60%;
+        .search-info__block {
+            position: relative;
+            padding: 14px 0;
+            gap: 20px;
+            display: flex;
+            flex: 1 1 auto;
+            align-items: center;
+            border-radius: 12px;
+            background: #fff;
+            .search-info__icon {
+                padding-left: 10px;
+            }
+            .search-info__input {
+                width: 100%;
+                min-width: 250px;
+                height: 30px;
+                font-size: 20px;
+            }
+            .search-info__button {
+                position: absolute;
+                right: 0;
+                height: 100%;
+                padding: 20px 10px;
+                font-size: 18px;
+                border-radius: 0 12px 12px 0;
+                color: #fff;
+                background: $color-peach;
+                cursor: pointer;
+            }
+        }
+        .info {
+            span {
+                font-size: 18px;
+                color: $color-black;
+            }
+            p {
+                font-family: "Mabry Pro", sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                color: $color-gray;
+            }
+        }
+    }
+    .enter-regist {
+
+        .enter-regist__button {
+            font-size: 22px;
+            font-weight: 300;
+            border-bottom: 3px solid $color-peach;
+            color: $color-gray;
+            cursor: pointer;
+        }
+    }
+}
+
+.content {
+    @include size(98%, 100%);
+    padding: 50px 0 30px 0;
+    margin: 0 auto;
+    gap: 50px;
+    display: flex;
+    .filters__menu {
+        @include size(260px, 80svh);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 15px;
+        .filters__genres {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            .genres__title {
+                padding: 5px 0;
+                font-size: 20px;
+                text-align: center;
+                color: $color-gray;
+            }
+            .genres__block {
+                display: flex;
+                flex-direction: column;
+                row-gap: 7px;
+                label {
+                    color: $color-gray;
+                    cursor: pointer;
+                }
+                .real-checkbox {
+                    @include size(0, 0);
+                    opacity: 0;
+                    position: absolute;
+                    z-index: -1;
+                }
+                .custom-checkbox {
+                    @include size(18px, 18px);
+                    position: relative;
+                    display: inline-block;
+                    margin-right: 5px;
+                    border: 2px solid #7e9bbd;
+                    border-radius: 4px;
+                    vertical-align: sub;
+                }
+                .custom-checkbox::before {
+                    content: '';
+                    @include size(18px, 18px);
+                    position: absolute;
+                    display: inline-block;
+                    background: url('/img/icon-check.png') no-repeat;
+                    background-size: contain;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%) scale(0);
+                    transition: .3s;
+                }
+                .real-checkbox:checked+.custom-checkbox::before {
+                    transform: translate(-50%, -50%) scale(1);
+                }
+            }
+        }
+    }
+    .library {
+        @include size(100%, 100%);
+        min-height: 80svh;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        background: #fff;
+        .container__book {
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            flex: 1 1 auto;
+            grid-template-columns: repeat(auto-fill, 200px);
+            justify-content: center;
+            justify-items: center;
+            column-gap: 25px;
+            row-gap: 20px;
+            flex-wrap: wrap;
+            .item__book {
+                width: 200px;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                background: #fff;
+                border-radius: 7px;
+                overflow: hidden;
+                .book__top {
+                    position: relative;
+                    min-height: 274px;
+                    .book__img {
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .book__slide-left, 
+                    .book__slide-right {
+                        position: absolute;
+                        visibility: hidden;
+                        width: 30px;
+                        height: 30px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        background: url('/img/icon-touch-50.png') 50%/cover no-repeat;
+                        cursor: pointer;
+                        z-index: 10;
+                        animation: sizing 1500ms infinite;
+
+                    }
+                    .book__slide-right {
+                        right: 0;
+                    }
+                    .book__description {
+                        padding: 30px 5px 5px 5px;
+                        height: 100%;
+                        row-gap: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        background: #0000008d;
+                        font-size: 20px;
+                        color: $color-peach;
+                        span {
+                            font-size: 16px;
+                            color: #f3e2d9;
+                        }
+                    }
+                }
+                .book__top:hover .book__slide-left,
+                .book__top:hover .book__slide-right {
+                    visibility: visible;
+                }
+                @-webkit-keyframes sizing {
+                    60% { width: 30px; height: 30px; }
+                    100% { width: 45px; height: 45px; }
+                }
+                
+                @-moz-keyframes sizing {
+                    60% { width: 30px; height: 30px; }
+                    100% { width: 45px; height: 45px; }
+                }
+                
+                @-o-keyframes sizing {
+                    60% { width: 30px; height: 30px; }
+                    100% { width: 45px; height: 45px; }
+                }
+                
+                @keyframes sizing {
+                    60% { width: 30px; height: 30px; }
+                    100% { width: 45px; height: 45px; }
+                }
+                .book__bottom {
+                    width: 100%;
+                    padding: 5px;
+                    font-size: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    background: $background-peach;
+                    border-radius: 0 0 7px 7px;
+                    .book__read-btn {
+                        color: $color-white;
+                    }
+                    .book__list-btn {
+                        height: 100%;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+        .library__pages {
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            column-gap: 15px;
+            .pages__block {
+                @include size(30px, 30px);
+                position: relative;
+                display: flex;
+                font-size: 19px;
+                border-radius: 5px;
+                border: 1px solid #fba461e4;
+                color: $color-gray;
+                transition: .3s;
+                cursor: pointer;
+                span {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .pages__block:hover {
+                background: $background-peach;
+                transition: .3s;
+                color: #2e1f16;
+            }
+            .active-btn {
+                background: $background-peach;
+                color: #2e1f16;
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    @import './mobile-style.scss';
+}

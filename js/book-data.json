@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "img": "img/coverForBook.png",
+    "title": "Тайна забытого леса",
+    "genres": ["Фэнтези", "Приключения"],
+    "year": 2010,
+    "pages": 320,
+    "author": "Наталья Иванова"
+  },
+  {
+    "id": 2,
+    "img": "img/coverForBook.png",
+    "title": "Сумеречная сага",
+    "genres": ["Роман", "Фэнтези"],
+    "year": 2008,
+    "pages": 400,
+    "author": "Алексей Петров"
+  },
+  {
+    "id": 3,
+    "img": "img/coverForBook.png",
+    "title": "Лабиринты времени",
+    "genres": ["Научная фантастика", "Драма"],
+    "year": 2015,
+    "pages": 350,
+    "author": "Екатерина Смирнова"
+  },
+  {
+    "id": 4,
+    "img": "img/coverForBook.png",
+    "title": "Потерянные в океане",
+    "genres": ["Приключения", "Триллер"],
+    "year": 2012,
+    "pages": 280,
+    "author": "Иван Сидоров"
+  },
+  {
+    "id": 5,
+    "img": "img/coverForBook.png",
+    "title": "В поисках Эльдорадо",
+    "genres": ["Исторический", "Приключения"],
+    "year": 2007,
+    "pages": 300,
+    "author": "Мария Козлова"
+  },
+  {
+    "id": 6,
+    "img": "img/coverForBook.png",
+    "title": "Сердце в огне",
+    "genres": ["Фэнтези", "Роман"],
+    "year": 2018,
+    "pages": 420,
+    "author": "Андрей Николаев"
+  },
+  {
+    "id": 7,
+    "img": "img/coverForBook.png",
+    "title": "Под знаменем дракона",
+    "genres": ["Фэнтези", "Боевик"],
+    "year": 2011,
+    "pages": 360,
+    "author": "Ольга Кузнецова"
+  },
+  {
+    "id": 8,
+    "img": "img/coverForBook.png",
+    "title": "Грёзы магии",
+    "genres": ["Фэнтези", "Приключения"],
+    "year": 2016,
+    "pages": 330,
+    "author": "Сергей Игнатов"
+  },
+  {
+    "id": 9,
+    "img": "img/coverForBook.png",
+    "title": "Темные аллеи",
+    "genres": ["Триллер", "Детектив"],
+    "year": 2014,
+    "pages": 290,
+    "author": "Нина Федорова"
+  },
+  {
+    "id": 10,
+    "img": "img/coverForBook.png",
+    "title": "Сны бездны",
+    "genres": ["Научная фантастика", "Драма"],
+    "year": 2017,
+    "pages": 380,
+    "author": "Артем Соколов"
+  },
+  {
+    "id": 11,
+    "img": "img/coverForBook.png",
+    "title": "Последний рассвет",
+    "genres": ["Роман", "Драма"],
+    "year": 2009,
+    "pages": 310,
+    "author": "Елена Андреева"
+  },
+  {
+    "id": 12,
+    "img": "img/coverForBook.png",
+    "title": "Искры вечности",
+    "genres": ["Фэнтези", "Приключения"],
+    "year": 2013,
+    "pages": 340,
+    "author": "Игорь Васнецов"
+  },
+  {
+    "id": 13,
+    "img": "img/coverForBook.png",
+    "title": "Звездный путь",
+    "genres": ["Научная фантастика", "Приключения"],
+    "year": 2020,
+    "pages": 400,
+    "author": "Александра Белова"
+  },
+  {
+    "id": 14,
+    "img": "img/coverForBook.png",
+    "title": "Пленники ветра",
+    "genres": ["Фэнтези", "Роман"],
+    "year": 2019,
+    "pages": 360,
+    "author": "Дмитрий Чернов"
+  },
+  {
+    "id": 15,
+    "img": "img/coverForBook.png",
+    "title": "Спасение из тьмы",
+    "genres": ["Триллер", "Боевик"],
+    "year": 2011,
+    "pages": 330,
+    "author": "Анна Королева"
+  },
+  {
+    "id": 16,
+    "img": "img/coverForBook.png",
+    "title": "Песчаные часы",
+    "genres": ["Драма", "Приключения"],
+    "year": 2016,
+    "pages": 310,
+    "author": "Иван Григорьев"
+  },
+  {
+    "id": 17,
+    "img": "img/coverForBook.png",
+    "title": "Тайный сад",
+    "genres": ["Роман", "Драма"],
+    "year": 2013,
+    "pages": 320,
+    "author": "Ольга Шестакова"
+  },
+  {
+    "id": 18,
+    "img": "img/coverForBook.png",
+    "title": "Проклятая луна",
+    "genres": ["Фэнтези", "Мистика"],
+    "year": 2017,
+    "pages": 380,
+    "author": "Максим Данилов"
+  },
+  {
+    "id": 19,
+    "img": "img/coverForBook.png",
+    "title": "Звуки тишины",
+    "genres": ["Научная фантастика", "Драма"],
+    "year": 2014,
+    "pages": 340,
+    "author": "Екатерина Широкова"
+  },
+  {
+    "id": 20,
+    "img": "img/coverForBook.png",
+    "title": "Сквозь грозу",
+    "genres": ["Приключения", "Триллер"],
+    "year": 2015,
+    "pages": 370,
+    "author": "Артур Попов"
+  },
+  {
+    "id": 21,
+    "img": "img/coverForBook.png",
+    "title": "Поиск света",
+    "genres": ["Драма", "Приключения"],
+    "year": 2019,
+    "pages": 400,
+    "author": "Марина Иванова"
+  },
+  {
+    "id": 22,
+    "img": "img/coverForBook.png",
+    "title": "Огонь в ночи",
+    "genres": ["Фэнтези", "Боевик"],
+    "year": 2016,
+    "pages": 350,
+    "author": "Игорь Козлов"
+  },
+  {
+    "id": 23,
+    "img": "img/coverForBook.png",
+    "title": "Пленницы судьбы",
+    "genres": ["Роман", "Мистика"],
+    "year": 2011,
+    "pages": 320,
+    "author": "Наталья Попова"
+  },
+  {
+    "id": 24,
+    "img": "img/coverForBook.png",
+    "title": "Поток сознания",
+    "genres": ["Научная фантастика", "Триллер"],
+    "year": 2015,
+    "pages": 380,
+    "author": "Александр Смирнов"
+  },
+  {
+    "id": 25,
+    "img": "img/coverForBook.png",
+    "title": "Странствия души",
+    "genres": ["Фэнтези", "Детектив"],
+    "year": 2018,
+    "pages": 420,
+    "author": "Екатерина Андреева"
+  },
+  {
+    "id": 26,
+    "img": "img/coverForBook.png",
+    "title": "Сквозь туман времени",
+    "genres": ["Фэнтези", "Приключения"],
+    "year": 2014,
+    "pages": 340,
+    "author": "Дмитрий Иванов"
+  },
+  {
+    "id": 27,
+    "img": "img/coverForBook.png",
+    "title": "Магия закатов",
+    "genres": ["Фэнтези", "Роман"],
+    "year": 2007,
+    "pages": 300,
+    "author": "Ольга Николаева"
+  },
+  {
+    "id": 28,
+    "img": "img/coverForBook.png",
+    "title": "Секреты звездного неба",
+    "genres": ["Научная фантастика", "Фэнтези"],
+    "year": 2013,
+    "pages": 360,
+    "author": "Антон Соколов"
+  },
+  {
+    "id": 29,
+    "img": "img/coverForBook.png",
+    "title": "Темные леса",
+    "genres": ["Триллер", "Драма"],
+    "year": 2017,
+    "pages": 310,
+    "author": "Ирина Шестакова"
+  },
+  {
+    "id": 30,
+    "img": "img/coverForBook.png",
+    "title": "В поисках звезды",
+    "genres": ["Научная фантастика", "Приключения"],
+    "year": 2012,
+    "pages": 340,
+    "author": "Максим Иванов"
+  },
+  {
+    "id": 31,
+    "img": "img/coverForBook.png",
+    "title": "Загадка туманного озера",
+    "genres": ["Роман", "Приключения"],
+    "year": 2019,
+    "pages": 370,
+    "author": "Татьяна Петрова"
+  },
+  {
+    "id": 32,
+    "img": "img/coverForBook.png",
+    "title": "Сквозь века",
+    "genres": ["Фэнтези", "Боевик"],
+    "year": 2014,
+    "pages": 330,
+    "author": "Алексей Сидоров"
+  },
+  {
+    "id": 33,
+    "img": "img/coverForBook.png",
+    "title": "Путешествие во времени",
+    "genres": ["Научная фантастика", "Детектив"],
+    "year": 2010,
+    "pages": 290,
+    "author": "Игорь Федоров"
+  },
+  {
+    "id": 34,
+    "img": "img/coverForBook.png",
+    "title": "Сказки о драконах",
+    "genres": ["Фэнтези", "Роман"],
+    "year": 2016,
+    "pages": 320,
+    "author": "Мария Игнатова"
+  },
+  {
+    "id": 35,
+    "img": "img/coverForBook.png",
+    "title": "Лабиринты судьбы",
+    "genres": ["Триллер", "Мистика"],
+    "year": 2012,
+    "pages": 380,
+    "author": "Артем Федоров"
+  },
+  {
+    "id": 36,
+    "img": "img/coverForBook.png",
+    "title": "Магия зимних ночей",
+    "genres": ["Фэнтези", "Приключения"],
+    "year": 2015,
+    "pages": 350,
+    "author": "Екатерина Кузнецова"
+  },
+  {
+    "id": 37,
+    "img": "img/coverForBook.png",
+    "title": "Темные коридоры",
+    "genres": ["Драма", "Триллер"],
+    "year": 2018,
+    "pages": 420,
+    "author": "Андрей Попов"
+  },
+  {
+    "id": 38,
+    "img": "img/coverForBook.png",
+    "title": "Звездный летописец",
+    "genres": ["Научная фантастика", "Фэнтези"],
+    "year": 2011,
+    "pages": 300,
+    "author": "Ольга Соколова"
+  },
+  {
+    "id": 39,
+    "img": "img/coverForBook.png",
+    "title": "По следам дракона",
+    "genres": ["Фэнтези", "Приключения"],
+    "year": 2013,
+    "pages": 360,
+    "author": "Сергей Данилов"
+  },
+  {
+    "id": 40,
+    "img": "img/coverForBook.png",
+    "title": "Тайны звездного неба",
+    "genres": ["Научная фантастика", "Боевик"],
+    "year": 2017,
+    "pages": 330,
+    "author": "Анна Максимова"
+  }
+]
