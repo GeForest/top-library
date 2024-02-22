@@ -1,0 +1,12 @@
+$color-peach: #fba461;
+$color-black: #4f4f4f;
+$color-gray: #78818D;
+$color-white: #f6f6f6;
+$background: #b3b3b35b;
+$background-peach: #fba461;
+$background-light: #f3e2d9;
+
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
